@@ -53,6 +53,8 @@ export default class Controller {
         this.update();
       }, speed > 0 ? speed : 100);
     }
+
+    ym('62810344', 'reachGoal', 'keystroke'); return true;
   }
 
   stopTimer() {
